@@ -47,7 +47,7 @@
     <div class="wrapper">
         <h2 class="title">Form</h2>
         <?php echo $msg; ?>
-        <form action="" method="post" class="form">
+        <form action="" method="post" class="form" name="form">
             <div class="input-field">
                 <label for="stdName" class="input-label">Name</label>
                 <input type="text" name="stdName" class="input" id="stdName" placeholder="Enter your name" value="<?php if (isset($_POST['submit'])) { echo $stdName; } ?>">
